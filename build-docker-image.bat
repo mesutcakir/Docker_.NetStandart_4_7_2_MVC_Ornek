@@ -1,2 +1,4 @@
 docker build -t docker-demo .
-docker run -d -p 8081:80 docker-demo
+docker images
+docker run -d -p 80:80 docker-demo
+docker ps

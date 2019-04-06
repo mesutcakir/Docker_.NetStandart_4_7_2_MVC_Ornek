@@ -28,3 +28,6 @@ RUN nuget restore \
 CMD powershell \
     Write-Host IIS Started... ; \
     while ($true) { Start-Sleep -Seconds 3600 }
+
+ENTRYPOINT powershell .\InitializeContainer
+#EXPOSE 80
