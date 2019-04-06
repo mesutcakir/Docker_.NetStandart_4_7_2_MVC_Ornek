@@ -1,4 +1,5 @@
-# Docker_.NetStandart_4_7_2_MVC_Ornek
+# Docker .Net Standart 4.7.2 MVC Örneklemesi
+
 Docker ile .net standart 4.7.2 MVC uygulaması örneklemesidir.
 
 MVC projesi visual studio ile açılmış olup varsayılan bir uygulamadır. Tüm olay Docker klasörü altındaki DockerFile ile ilgilidir.
